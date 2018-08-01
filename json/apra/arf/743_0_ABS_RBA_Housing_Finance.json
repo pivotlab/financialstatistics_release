@@ -1,9 +1,9 @@
 {
   "IdentifiersAustralianBusinessNumberIdentifier": "foo",
-  "ReportingConsolidationBasisDimension": "foo",
+  "ReportingConsolidationBasisDimension": "Domestic Books",
   "newApplicationsForHousingLoans": [
     {
-      "ActivityStatusDimension": "foo",
+      "ActivityStatusDimension": "New",
       "ownerOccupiedOrInvestment": "foo",
       "residentOrNonResident": "foo",
       "fixedOrVariable": "foo",
@@ -15,7 +15,7 @@
   ],
   "newBorrowerAcceptedCommitments": [
     {
-      "ActivityStatusDimension": "foo",
+      "ActivityStatusDimension": "New",
       "foreignOrDomestic": "foo",
       "propertyLocation": "foo",
       "ownerOccupiedOrInvestment": "foo",
@@ -30,7 +30,7 @@
   ],
   "firstHomeNewBorrowerAcceptedCommitments": [
     {
-      "ActivityStatusDimension": "foo",
+      "ActivityStatusDimension": "New",
       "foreignOrDomestic": "foo",
       "propertyLocation": "foo",
       "ownerOccupiedOrInvestment": "foo",

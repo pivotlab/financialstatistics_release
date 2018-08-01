@@ -13,9 +13,9 @@
   </xbrli:unit>
   <tns:Lodgement>
     <tns:Lodgement_IdentifiersAustralianBusinessNumberIdentifier contextRef="c0001">foo</tns:Lodgement_IdentifiersAustralianBusinessNumberIdentifier>
-    <tns:Lodgement_ReportingConsolidationBasisDimension contextRef="c0001">foo</tns:Lodgement_ReportingConsolidationBasisDimension>
+    <tns:Lodgement_ReportingConsolidationBasisDimension contextRef="c0001">Domestic Books</tns:Lodgement_ReportingConsolidationBasisDimension>
     <tns:Lodgement_newApplicationsForHousingLoans>
-      <tns:NewLoan_ActivityStatusDimension contextRef="c0001">foo</tns:NewLoan_ActivityStatusDimension>
+      <tns:NewLoan_ActivityStatusDimension contextRef="c0001">New</tns:NewLoan_ActivityStatusDimension>
       <tns:NewLoan_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:NewLoan_ownerOccupiedOrInvestment>
       <tns:NewLoan_residentOrNonResident contextRef="c0001">foo</tns:NewLoan_residentOrNonResident>
       <tns:NewLoan_fixedOrVariable contextRef="c0001">foo</tns:NewLoan_fixedOrVariable>
@@ -25,7 +25,7 @@
       </tns:NewLoan_loanApplicatoin>
     </tns:Lodgement_newApplicationsForHousingLoans>
     <tns:Lodgement_newApplicationsForHousingLoans>
-      <tns:NewLoan_ActivityStatusDimension contextRef="c0001">foo</tns:NewLoan_ActivityStatusDimension>
+      <tns:NewLoan_ActivityStatusDimension contextRef="c0001">New</tns:NewLoan_ActivityStatusDimension>
       <tns:NewLoan_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:NewLoan_ownerOccupiedOrInvestment>
       <tns:NewLoan_residentOrNonResident contextRef="c0001">foo</tns:NewLoan_residentOrNonResident>
       <tns:NewLoan_fixedOrVariable contextRef="c0001">foo</tns:NewLoan_fixedOrVariable>
@@ -35,7 +35,7 @@
       </tns:NewLoan_loanApplicatoin>
     </tns:Lodgement_newApplicationsForHousingLoans>
     <tns:Lodgement_newBorrowerAcceptedCommitments>
-      <tns:BorrowerCommitments_ActivityStatusDimension contextRef="c0001">foo</tns:BorrowerCommitments_ActivityStatusDimension>
+      <tns:BorrowerCommitments_ActivityStatusDimension contextRef="c0001">New</tns:BorrowerCommitments_ActivityStatusDimension>
       <tns:BorrowerCommitments_foreignOrDomestic contextRef="c0001">foo</tns:BorrowerCommitments_foreignOrDomestic>
       <tns:BorrowerCommitments_propertyLocation contextRef="c0001">foo</tns:BorrowerCommitments_propertyLocation>
       <tns:BorrowerCommitments_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:BorrowerCommitments_ownerOccupiedOrInvestment>
@@ -48,7 +48,7 @@
       </tns:BorrowerCommitments_loanApplicatoin>
     </tns:Lodgement_newBorrowerAcceptedCommitments>
     <tns:Lodgement_newBorrowerAcceptedCommitments>
-      <tns:BorrowerCommitments_ActivityStatusDimension contextRef="c0001">foo</tns:BorrowerCommitments_ActivityStatusDimension>
+      <tns:BorrowerCommitments_ActivityStatusDimension contextRef="c0001">New</tns:BorrowerCommitments_ActivityStatusDimension>
       <tns:BorrowerCommitments_foreignOrDomestic contextRef="c0001">foo</tns:BorrowerCommitments_foreignOrDomestic>
       <tns:BorrowerCommitments_propertyLocation contextRef="c0001">foo</tns:BorrowerCommitments_propertyLocation>
       <tns:BorrowerCommitments_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:BorrowerCommitments_ownerOccupiedOrInvestment>
@@ -61,7 +61,7 @@
       </tns:BorrowerCommitments_loanApplicatoin>
     </tns:Lodgement_newBorrowerAcceptedCommitments>
     <tns:Lodgement_firstHomeNewBorrowerAcceptedCommitments>
-      <tns:FirstHomeBorrowerCommitments_ActivityStatusDimension contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_ActivityStatusDimension>
+      <tns:FirstHomeBorrowerCommitments_ActivityStatusDimension contextRef="c0001">New</tns:FirstHomeBorrowerCommitments_ActivityStatusDimension>
       <tns:FirstHomeBorrowerCommitments_foreignOrDomestic contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_foreignOrDomestic>
       <tns:FirstHomeBorrowerCommitments_propertyLocation contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_propertyLocation>
       <tns:FirstHomeBorrowerCommitments_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_ownerOccupiedOrInvestment>
@@ -74,7 +74,7 @@
       </tns:FirstHomeBorrowerCommitments_loanApplicatoin>
     </tns:Lodgement_firstHomeNewBorrowerAcceptedCommitments>
     <tns:Lodgement_firstHomeNewBorrowerAcceptedCommitments>
-      <tns:FirstHomeBorrowerCommitments_ActivityStatusDimension contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_ActivityStatusDimension>
+      <tns:FirstHomeBorrowerCommitments_ActivityStatusDimension contextRef="c0001">New</tns:FirstHomeBorrowerCommitments_ActivityStatusDimension>
       <tns:FirstHomeBorrowerCommitments_foreignOrDomestic contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_foreignOrDomestic>
       <tns:FirstHomeBorrowerCommitments_propertyLocation contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_propertyLocation>
       <tns:FirstHomeBorrowerCommitments_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_ownerOccupiedOrInvestment>

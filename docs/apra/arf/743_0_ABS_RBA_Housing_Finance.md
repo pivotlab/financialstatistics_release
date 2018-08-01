@@ -12,6 +12,8 @@ A unique public identifier issued to all entities registered in the Australian B
 
 #### ReportingConsolidationBasisDimension ([Reporting Consolidation Basis Dimension](http://financialstatistics.pivotlab.io/define/dm916)): string
 
+Must be set to *Domestic Books*
+
 This dimension categorises the reported data according to the consolidation method.
 
 
@@ -26,6 +28,8 @@ This dimension categorises the reported data according to the consolidation meth
 ## NewLoan
 
 #### ActivityStatusDimension ([Activity Status Dimension](http://financialstatistics.pivotlab.io/define/dm888)): string
+
+Must be set to *New*
 
 Information in relation to the status of an activity.
 
@@ -55,6 +59,8 @@ Information in relation to the interest rate type applicable to an interest-bear
 ## BorrowerCommitments
 
 #### ActivityStatusDimension ([Activity Status Dimension](http://financialstatistics.pivotlab.io/define/dm888)): string
+
+Must be set to *New*
 
 Information in relation to the status of an activity.
 
@@ -98,6 +104,8 @@ The information reported is categorised according to what type of funding arrang
 ## FirstHomeBorrowerCommitments
 
 #### ActivityStatusDimension ([Activity Status Dimension](http://financialstatistics.pivotlab.io/define/dm888)): string
+
+Must be set to *New*
 
 Information in relation to the status of an activity.
 

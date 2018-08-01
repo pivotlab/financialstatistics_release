@@ -1,9 +1,9 @@
 <Lodgement>
   <IdentifiersAustralianBusinessNumberIdentifier>foo</IdentifiersAustralianBusinessNumberIdentifier>
-  <ReportingConsolidationBasisDimension>foo</ReportingConsolidationBasisDimension>
+  <ReportingConsolidationBasisDimension>Domestic Books</ReportingConsolidationBasisDimension>
   <newApplicationsForHousingLoanses>
     <newApplicationsForHousingLoans>
-      <ActivityStatusDimension>foo</ActivityStatusDimension>
+      <ActivityStatusDimension>New</ActivityStatusDimension>
       <ownerOccupiedOrInvestment>foo</ownerOccupiedOrInvestment>
       <residentOrNonResident>foo</residentOrNonResident>
       <fixedOrVariable>foo</fixedOrVariable>
@@ -15,7 +15,7 @@
   </newApplicationsForHousingLoanses>
   <newBorrowerAcceptedCommitmentses>
     <newBorrowerAcceptedCommitments>
-      <ActivityStatusDimension>foo</ActivityStatusDimension>
+      <ActivityStatusDimension>New</ActivityStatusDimension>
       <foreignOrDomestic>foo</foreignOrDomestic>
       <propertyLocation>foo</propertyLocation>
       <ownerOccupiedOrInvestment>foo</ownerOccupiedOrInvestment>
@@ -30,7 +30,7 @@
   </newBorrowerAcceptedCommitmentses>
   <firstHomeNewBorrowerAcceptedCommitmentses>
     <firstHomeNewBorrowerAcceptedCommitments>
-      <ActivityStatusDimension>foo</ActivityStatusDimension>
+      <ActivityStatusDimension>New</ActivityStatusDimension>
       <foreignOrDomestic>foo</foreignOrDomestic>
       <propertyLocation>foo</propertyLocation>
       <ownerOccupiedOrInvestment>foo</ownerOccupiedOrInvestment>
