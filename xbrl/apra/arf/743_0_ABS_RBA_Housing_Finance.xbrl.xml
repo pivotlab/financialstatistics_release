@@ -1,0 +1,90 @@
+<xbrli:xbrl xmlns:tns="http://ausdx.io" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.xsd"/>
+  <xbrli:context id="c0001">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://abr.gov.au/abn">0123456789</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>1970-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0001">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <tns:Lodgement>
+    <tns:Lodgement_IdentifiersAustralianBusinessNumberIdentifier contextRef="c0001">foo</tns:Lodgement_IdentifiersAustralianBusinessNumberIdentifier>
+    <tns:Lodgement_ReportingConsolidationBasisDimension contextRef="c0001">foo</tns:Lodgement_ReportingConsolidationBasisDimension>
+    <tns:Lodgement_newApplicationsForHousingLoans>
+      <tns:NewLoan_ActivityStatusDimension contextRef="c0001">foo</tns:NewLoan_ActivityStatusDimension>
+      <tns:NewLoan_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:NewLoan_ownerOccupiedOrInvestment>
+      <tns:NewLoan_residentOrNonResident contextRef="c0001">foo</tns:NewLoan_residentOrNonResident>
+      <tns:NewLoan_fixedOrVariable contextRef="c0001">foo</tns:NewLoan_fixedOrVariable>
+      <tns:NewLoan_loanApplicatoin>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount decimals="0" contextRef="c0001" unitRef="u0001">42</tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount>
+      </tns:NewLoan_loanApplicatoin>
+    </tns:Lodgement_newApplicationsForHousingLoans>
+    <tns:Lodgement_newApplicationsForHousingLoans>
+      <tns:NewLoan_ActivityStatusDimension contextRef="c0001">foo</tns:NewLoan_ActivityStatusDimension>
+      <tns:NewLoan_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:NewLoan_ownerOccupiedOrInvestment>
+      <tns:NewLoan_residentOrNonResident contextRef="c0001">foo</tns:NewLoan_residentOrNonResident>
+      <tns:NewLoan_fixedOrVariable contextRef="c0001">foo</tns:NewLoan_fixedOrVariable>
+      <tns:NewLoan_loanApplicatoin>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount decimals="0" contextRef="c0001" unitRef="u0001">42</tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount>
+      </tns:NewLoan_loanApplicatoin>
+    </tns:Lodgement_newApplicationsForHousingLoans>
+    <tns:Lodgement_newBorrowerAcceptedCommitments>
+      <tns:BorrowerCommitments_ActivityStatusDimension contextRef="c0001">foo</tns:BorrowerCommitments_ActivityStatusDimension>
+      <tns:BorrowerCommitments_foreignOrDomestic contextRef="c0001">foo</tns:BorrowerCommitments_foreignOrDomestic>
+      <tns:BorrowerCommitments_propertyLocation contextRef="c0001">foo</tns:BorrowerCommitments_propertyLocation>
+      <tns:BorrowerCommitments_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:BorrowerCommitments_ownerOccupiedOrInvestment>
+      <tns:BorrowerCommitments_residentOrNonResident contextRef="c0001">foo</tns:BorrowerCommitments_residentOrNonResident>
+      <tns:BorrowerCommitments_TypeOfFundingCommitmentDimension contextRef="c0001">foo</tns:BorrowerCommitments_TypeOfFundingCommitmentDimension>
+      <tns:BorrowerCommitments_BorrowerAccepted decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:BorrowerCommitments_BorrowerAccepted>
+      <tns:BorrowerCommitments_loanApplicatoin>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount decimals="0" contextRef="c0001" unitRef="u0001">42</tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount>
+      </tns:BorrowerCommitments_loanApplicatoin>
+    </tns:Lodgement_newBorrowerAcceptedCommitments>
+    <tns:Lodgement_newBorrowerAcceptedCommitments>
+      <tns:BorrowerCommitments_ActivityStatusDimension contextRef="c0001">foo</tns:BorrowerCommitments_ActivityStatusDimension>
+      <tns:BorrowerCommitments_foreignOrDomestic contextRef="c0001">foo</tns:BorrowerCommitments_foreignOrDomestic>
+      <tns:BorrowerCommitments_propertyLocation contextRef="c0001">foo</tns:BorrowerCommitments_propertyLocation>
+      <tns:BorrowerCommitments_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:BorrowerCommitments_ownerOccupiedOrInvestment>
+      <tns:BorrowerCommitments_residentOrNonResident contextRef="c0001">foo</tns:BorrowerCommitments_residentOrNonResident>
+      <tns:BorrowerCommitments_TypeOfFundingCommitmentDimension contextRef="c0001">foo</tns:BorrowerCommitments_TypeOfFundingCommitmentDimension>
+      <tns:BorrowerCommitments_BorrowerAccepted decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:BorrowerCommitments_BorrowerAccepted>
+      <tns:BorrowerCommitments_loanApplicatoin>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount decimals="0" contextRef="c0001" unitRef="u0001">42</tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount>
+      </tns:BorrowerCommitments_loanApplicatoin>
+    </tns:Lodgement_newBorrowerAcceptedCommitments>
+    <tns:Lodgement_firstHomeNewBorrowerAcceptedCommitments>
+      <tns:FirstHomeBorrowerCommitments_ActivityStatusDimension contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_ActivityStatusDimension>
+      <tns:FirstHomeBorrowerCommitments_foreignOrDomestic contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_foreignOrDomestic>
+      <tns:FirstHomeBorrowerCommitments_propertyLocation contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_propertyLocation>
+      <tns:FirstHomeBorrowerCommitments_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_ownerOccupiedOrInvestment>
+      <tns:FirstHomeBorrowerCommitments_residentOrNonResident contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_residentOrNonResident>
+      <tns:FirstHomeBorrowerCommitments_TypeOfFundingCommitmentDimension contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_TypeOfFundingCommitmentDimension>
+      <tns:FirstHomeBorrowerCommitments_BorrowerAccepted decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:FirstHomeBorrowerCommitments_BorrowerAccepted>
+      <tns:FirstHomeBorrowerCommitments_loanApplicatoin>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount decimals="0" contextRef="c0001" unitRef="u0001">42</tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount>
+      </tns:FirstHomeBorrowerCommitments_loanApplicatoin>
+    </tns:Lodgement_firstHomeNewBorrowerAcceptedCommitments>
+    <tns:Lodgement_firstHomeNewBorrowerAcceptedCommitments>
+      <tns:FirstHomeBorrowerCommitments_ActivityStatusDimension contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_ActivityStatusDimension>
+      <tns:FirstHomeBorrowerCommitments_foreignOrDomestic contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_foreignOrDomestic>
+      <tns:FirstHomeBorrowerCommitments_propertyLocation contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_propertyLocation>
+      <tns:FirstHomeBorrowerCommitments_ownerOccupiedOrInvestment contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_ownerOccupiedOrInvestment>
+      <tns:FirstHomeBorrowerCommitments_residentOrNonResident contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_residentOrNonResident>
+      <tns:FirstHomeBorrowerCommitments_TypeOfFundingCommitmentDimension contextRef="c0001">foo</tns:FirstHomeBorrowerCommitments_TypeOfFundingCommitmentDimension>
+      <tns:FirstHomeBorrowerCommitments_BorrowerAccepted decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:FirstHomeBorrowerCommitments_BorrowerAccepted>
+      <tns:FirstHomeBorrowerCommitments_loanApplicatoin>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount decimals="0" contextRef="c0001" unitRef="u0001">42</tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount>
+        <tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount>
+      </tns:FirstHomeBorrowerCommitments_loanApplicatoin>
+    </tns:Lodgement_firstHomeNewBorrowerAcceptedCommitments>
+  </tns:Lodgement>
+</xbrli:xbrl>

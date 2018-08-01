@@ -1,0 +1,70 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Lodgement">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="IdentifiersAustralianBusinessNumberIdentifier" type="xs:string"/>
+        <xs:element name="ReportingConsolidationBasisDimension" type="xs:string"/>
+        <xs:element name="newApplicationsForHousingLoanses">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="newApplicationsForHousingLoans" type="NewLoan"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="newBorrowerAcceptedCommitmentses">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="newBorrowerAcceptedCommitments" type="BorrowerCommitments"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="firstHomeNewBorrowerAcceptedCommitmentses">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="firstHomeNewBorrowerAcceptedCommitments" type="FirstHomeBorrowerCommitments"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="NewLoan">
+    <xs:sequence>
+      <xs:element name="ActivityStatusDimension" type="xs:string"/>
+      <xs:element name="ownerOccupiedOrInvestment" type="xs:string"/>
+      <xs:element name="residentOrNonResident" type="xs:string"/>
+      <xs:element name="fixedOrVariable" type="xs:string"/>
+      <xs:element name="loanApplicatoin" type="LoanApplication"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="BorrowerCommitments">
+    <xs:sequence>
+      <xs:element name="ActivityStatusDimension" type="xs:string"/>
+      <xs:element name="foreignOrDomestic" type="xs:string"/>
+      <xs:element name="propertyLocation" type="xs:string"/>
+      <xs:element name="ownerOccupiedOrInvestment" type="xs:string"/>
+      <xs:element name="residentOrNonResident" type="xs:string"/>
+      <xs:element name="TypeOfFundingCommitmentDimension" type="xs:string"/>
+      <xs:element name="BorrowerAccepted" type="xs:float"/>
+      <xs:element name="loanApplicatoin" type="LoanApplication"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FirstHomeBorrowerCommitments">
+    <xs:sequence>
+      <xs:element name="ActivityStatusDimension" type="xs:string"/>
+      <xs:element name="foreignOrDomestic" type="xs:string"/>
+      <xs:element name="propertyLocation" type="xs:string"/>
+      <xs:element name="ownerOccupiedOrInvestment" type="xs:string"/>
+      <xs:element name="residentOrNonResident" type="xs:string"/>
+      <xs:element name="TypeOfFundingCommitmentDimension" type="xs:string"/>
+      <xs:element name="BorrowerAccepted" type="xs:float"/>
+      <xs:element name="loanApplicatoin" type="LoanApplication"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LoanApplication">
+    <xs:sequence>
+      <xs:element name="AssetsLoansAndReceivablesLendingFacilitiesCount" type="xs:int"/>
+      <xs:element name="AssetsLoansAndReceivablesLoanAccountSwitchAmount" type="xs:float"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

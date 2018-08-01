@@ -1,0 +1,46 @@
+{
+  "IdentifiersAustralianBusinessNumberIdentifier": "foo",
+  "ReportingConsolidationBasisDimension": "foo",
+  "newApplicationsForHousingLoans": [
+    {
+      "ActivityStatusDimension": "foo",
+      "ownerOccupiedOrInvestment": "foo",
+      "residentOrNonResident": "foo",
+      "fixedOrVariable": "foo",
+      "loanApplicatoin": {
+        "AssetsLoansAndReceivablesLendingFacilitiesCount": 42,
+        "AssetsLoansAndReceivablesLoanAccountSwitchAmount": 3.14
+      }
+    }
+  ],
+  "newBorrowerAcceptedCommitments": [
+    {
+      "ActivityStatusDimension": "foo",
+      "foreignOrDomestic": "foo",
+      "propertyLocation": "foo",
+      "ownerOccupiedOrInvestment": "foo",
+      "residentOrNonResident": "foo",
+      "TypeOfFundingCommitmentDimension": "foo",
+      "BorrowerAccepted": 3.14,
+      "loanApplicatoin": {
+        "AssetsLoansAndReceivablesLendingFacilitiesCount": 42,
+        "AssetsLoansAndReceivablesLoanAccountSwitchAmount": 3.14
+      }
+    }
+  ],
+  "firstHomeNewBorrowerAcceptedCommitments": [
+    {
+      "ActivityStatusDimension": "foo",
+      "foreignOrDomestic": "foo",
+      "propertyLocation": "foo",
+      "ownerOccupiedOrInvestment": "foo",
+      "residentOrNonResident": "foo",
+      "TypeOfFundingCommitmentDimension": "foo",
+      "BorrowerAccepted": 3.14,
+      "loanApplicatoin": {
+        "AssetsLoansAndReceivablesLendingFacilitiesCount": 42,
+        "AssetsLoansAndReceivablesLoanAccountSwitchAmount": 3.14
+      }
+    }
+  ]
+}

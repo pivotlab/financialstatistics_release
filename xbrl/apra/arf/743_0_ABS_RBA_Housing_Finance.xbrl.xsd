@@ -1,0 +1,120 @@
+<xsd:schema targetNamespace="http://ausdx.io" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ausdx.io" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.labels.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://ausdx.io/label" id="label">
+        <link:definition>label</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://ausdx.io/definition" id="definition">
+        <link:definition>definition</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://ausdx.io/guidance" id="guidance">
+        <link:definition>guidance</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://ausdx.io/comment" id="comment">
+        <link:definition>comment</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:element name="Lodgement" id="Lodgement" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Lodgement_IdentifiersAustralianBusinessNumberIdentifier"/>
+        <xsd:element maxOccurs="1" ref="tns:Lodgement_ReportingConsolidationBasisDimension"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Lodgement_newApplicationsForHousingLoans"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Lodgement_newBorrowerAcceptedCommitments"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Lodgement_firstHomeNewBorrowerAcceptedCommitments"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Lodgement_IdentifiersAustralianBusinessNumberIdentifier" id="Lodgement_IdentifiersAustralianBusinessNumberIdentifier" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Lodgement_ReportingConsolidationBasisDimension" id="Lodgement_ReportingConsolidationBasisDimension" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Lodgement_newApplicationsForHousingLoans" id="Lodgement_newApplicationsForHousingLoans" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:NewLoan_ActivityStatusDimension"/>
+        <xsd:element maxOccurs="1" ref="tns:NewLoan_ownerOccupiedOrInvestment"/>
+        <xsd:element maxOccurs="1" ref="tns:NewLoan_residentOrNonResident"/>
+        <xsd:element maxOccurs="1" ref="tns:NewLoan_fixedOrVariable"/>
+        <xsd:element maxOccurs="1" ref="tns:NewLoan_loanApplicatoin"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="NewLoan_ActivityStatusDimension" id="NewLoan_ActivityStatusDimension" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NewLoan_ownerOccupiedOrInvestment" id="NewLoan_ownerOccupiedOrInvestment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NewLoan_residentOrNonResident" id="NewLoan_residentOrNonResident" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NewLoan_fixedOrVariable" id="NewLoan_fixedOrVariable" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NewLoan_loanApplicatoin" id="NewLoan_loanApplicatoin" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount"/>
+        <xsd:element maxOccurs="1" ref="tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount" id="LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount" type="xbrli:intItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount" id="LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount" type="xbrli:floatItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Lodgement_newBorrowerAcceptedCommitments" id="Lodgement_newBorrowerAcceptedCommitments" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:BorrowerCommitments_ActivityStatusDimension"/>
+        <xsd:element maxOccurs="1" ref="tns:BorrowerCommitments_foreignOrDomestic"/>
+        <xsd:element maxOccurs="1" ref="tns:BorrowerCommitments_propertyLocation"/>
+        <xsd:element maxOccurs="1" ref="tns:BorrowerCommitments_ownerOccupiedOrInvestment"/>
+        <xsd:element maxOccurs="1" ref="tns:BorrowerCommitments_residentOrNonResident"/>
+        <xsd:element maxOccurs="1" ref="tns:BorrowerCommitments_TypeOfFundingCommitmentDimension"/>
+        <xsd:element maxOccurs="1" ref="tns:BorrowerCommitments_BorrowerAccepted"/>
+        <xsd:element maxOccurs="1" ref="tns:BorrowerCommitments_loanApplicatoin"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="BorrowerCommitments_ActivityStatusDimension" id="BorrowerCommitments_ActivityStatusDimension" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="BorrowerCommitments_foreignOrDomestic" id="BorrowerCommitments_foreignOrDomestic" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="BorrowerCommitments_propertyLocation" id="BorrowerCommitments_propertyLocation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="BorrowerCommitments_ownerOccupiedOrInvestment" id="BorrowerCommitments_ownerOccupiedOrInvestment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="BorrowerCommitments_residentOrNonResident" id="BorrowerCommitments_residentOrNonResident" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="BorrowerCommitments_TypeOfFundingCommitmentDimension" id="BorrowerCommitments_TypeOfFundingCommitmentDimension" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="BorrowerCommitments_BorrowerAccepted" id="BorrowerCommitments_BorrowerAccepted" type="xbrli:floatItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="BorrowerCommitments_loanApplicatoin" id="BorrowerCommitments_loanApplicatoin" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount"/>
+        <xsd:element maxOccurs="1" ref="tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Lodgement_firstHomeNewBorrowerAcceptedCommitments" id="Lodgement_firstHomeNewBorrowerAcceptedCommitments" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:FirstHomeBorrowerCommitments_ActivityStatusDimension"/>
+        <xsd:element maxOccurs="1" ref="tns:FirstHomeBorrowerCommitments_foreignOrDomestic"/>
+        <xsd:element maxOccurs="1" ref="tns:FirstHomeBorrowerCommitments_propertyLocation"/>
+        <xsd:element maxOccurs="1" ref="tns:FirstHomeBorrowerCommitments_ownerOccupiedOrInvestment"/>
+        <xsd:element maxOccurs="1" ref="tns:FirstHomeBorrowerCommitments_residentOrNonResident"/>
+        <xsd:element maxOccurs="1" ref="tns:FirstHomeBorrowerCommitments_TypeOfFundingCommitmentDimension"/>
+        <xsd:element maxOccurs="1" ref="tns:FirstHomeBorrowerCommitments_BorrowerAccepted"/>
+        <xsd:element maxOccurs="1" ref="tns:FirstHomeBorrowerCommitments_loanApplicatoin"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="FirstHomeBorrowerCommitments_ActivityStatusDimension" id="FirstHomeBorrowerCommitments_ActivityStatusDimension" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FirstHomeBorrowerCommitments_foreignOrDomestic" id="FirstHomeBorrowerCommitments_foreignOrDomestic" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FirstHomeBorrowerCommitments_propertyLocation" id="FirstHomeBorrowerCommitments_propertyLocation" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FirstHomeBorrowerCommitments_ownerOccupiedOrInvestment" id="FirstHomeBorrowerCommitments_ownerOccupiedOrInvestment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FirstHomeBorrowerCommitments_residentOrNonResident" id="FirstHomeBorrowerCommitments_residentOrNonResident" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FirstHomeBorrowerCommitments_TypeOfFundingCommitmentDimension" id="FirstHomeBorrowerCommitments_TypeOfFundingCommitmentDimension" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FirstHomeBorrowerCommitments_BorrowerAccepted" id="FirstHomeBorrowerCommitments_BorrowerAccepted" type="xbrli:floatItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FirstHomeBorrowerCommitments_loanApplicatoin" id="FirstHomeBorrowerCommitments_loanApplicatoin" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:LoanApplication_AssetsLoansAndReceivablesLendingFacilitiesCount"/>
+        <xsd:element maxOccurs="1" ref="tns:LoanApplication_AssetsLoansAndReceivablesLoanAccountSwitchAmount"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
