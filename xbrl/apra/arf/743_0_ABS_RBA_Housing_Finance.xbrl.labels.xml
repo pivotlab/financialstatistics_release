@@ -1,6 +1,6 @@
 <link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
-  <link:roleRef roleURI="http://ausdx.io/label" xlink:type="simple" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.xsd#label"/>
-  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/label">
+  <link:roleRef roleURI="http://pivotlab.io/label" xlink:type="simple" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.xsd#label"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://pivotlab.io/label">
     <link:loc xlink:type="locator" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.xsd#Lodgement" xlink:label="loc_Lodgement_label"/>
     <link:label xlink:type="resource" xlink:label="lbl_Lodgement_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Lodgement_label">Lodgement</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Lodgement_label" xlink:to="lbl_Lodgement_label"/>
@@ -89,8 +89,8 @@
     <link:label xlink:type="resource" xlink:label="lbl_FirstHomeBorrowerCommitments_loanApplicatoin_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_FirstHomeBorrowerCommitments_loanApplicatoin_label">loanApplicatoin</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_FirstHomeBorrowerCommitments_loanApplicatoin_label" xlink:to="lbl_FirstHomeBorrowerCommitments_loanApplicatoin_label"/>
   </link:labelLink>
-  <link:roleRef roleURI="http://ausdx.io/definition" xlink:type="simple" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.xsd#definition"/>
-  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/definition">
+  <link:roleRef roleURI="http://pivotlab.io/definition" xlink:type="simple" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.xsd#definition"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://pivotlab.io/definition">
     <link:loc xlink:type="locator" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.xsd#Lodgement_IdentifiersAustralianBusinessNumberIdentifier" xlink:label="loc_Lodgement_IdentifiersAustralianBusinessNumberIdentifier_definition"/>
     <link:label xlink:type="resource" xlink:label="lbl_Lodgement_IdentifiersAustralianBusinessNumberIdentifier_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Lodgement_IdentifiersAustralianBusinessNumberIdentifier_definition">A unique public identifier issued to all entities registered in the Australian Business Register (ABR), to be used in their dealings with government. Companies registered under the Corporations Law and business entities carrying on an enterprise in Australia are entitled to an ABN.</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Lodgement_IdentifiersAustralianBusinessNumberIdentifier_definition" xlink:to="lbl_Lodgement_IdentifiersAustralianBusinessNumberIdentifier_definition"/>
@@ -153,8 +153,8 @@ Report the net value of loans that have moved into each category.</link:label>
     <link:label xlink:type="resource" xlink:label="lbl_FirstHomeBorrowerCommitments_TypeOfFundingCommitmentDimension_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_FirstHomeBorrowerCommitments_TypeOfFundingCommitmentDimension_definition">The information reported is categorised according to what type of funding arrangement has been entered into either committed or uncommitted.</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_FirstHomeBorrowerCommitments_TypeOfFundingCommitmentDimension_definition" xlink:to="lbl_FirstHomeBorrowerCommitments_TypeOfFundingCommitmentDimension_definition"/>
   </link:labelLink>
-  <link:roleRef roleURI="http://ausdx.io/guidance" xlink:type="simple" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.xsd#guidance"/>
-  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/guidance"></link:labelLink>
-  <link:roleRef roleURI="http://ausdx.io/comment" xlink:type="simple" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.xsd#comment"/>
-  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/comment"></link:labelLink>
+  <link:roleRef roleURI="http://pivotlab.io/guidance" xlink:type="simple" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.xsd#guidance"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://pivotlab.io/guidance"></link:labelLink>
+  <link:roleRef roleURI="http://pivotlab.io/comment" xlink:type="simple" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.xsd#comment"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://pivotlab.io/comment"></link:labelLink>
 </link:linkbase>

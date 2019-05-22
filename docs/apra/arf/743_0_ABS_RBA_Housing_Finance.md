@@ -4,7 +4,7 @@
 
 ## Lodgement
 
-#### IdentifiersAustralianBusinessNumberIdentifier ([Identifiers Australian Business Number Identifier](http://definitions.ausdx.io/definition/trc/de26)): string
+#### IdentifiersAustralianBusinessNumberIdentifier ([Identifiers Australian Business Number Identifier](http://api.gov.au/definitions/definition/trc/de26)): string
 
 A unique public identifier issued to all entities registered in the Australian Business Register (ABR), to be used in their dealings with government. Companies registered under the Corporations Law and business entities carrying on an enterprise in Australia are entitled to an ABN.
 

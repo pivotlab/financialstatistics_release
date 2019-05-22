@@ -1,20 +1,20 @@
-<xsd:schema targetNamespace="http://ausdx.io" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ausdx.io" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+<xsd:schema targetNamespace="http://pivotlab.io" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://pivotlab.io" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
   <xsd:annotation>
     <xsd:appinfo>
       <link:linkbaseRef xlink:type="simple" xlink:href="743_0_ABS_RBA_Housing_Finance.xbrl.labels.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
-      <link:roleType roleURI="http://ausdx.io/label" id="label">
+      <link:roleType roleURI="http://pivotlab.io/label" id="label">
         <link:definition>label</link:definition>
         <link:usedOn>link:labelLink</link:usedOn>
       </link:roleType>
-      <link:roleType roleURI="http://ausdx.io/definition" id="definition">
+      <link:roleType roleURI="http://pivotlab.io/definition" id="definition">
         <link:definition>definition</link:definition>
         <link:usedOn>link:labelLink</link:usedOn>
       </link:roleType>
-      <link:roleType roleURI="http://ausdx.io/guidance" id="guidance">
+      <link:roleType roleURI="http://pivotlab.io/guidance" id="guidance">
         <link:definition>guidance</link:definition>
         <link:usedOn>link:labelLink</link:usedOn>
       </link:roleType>
-      <link:roleType roleURI="http://ausdx.io/comment" id="comment">
+      <link:roleType roleURI="http://pivotlab.io/comment" id="comment">
         <link:definition>comment</link:definition>
         <link:usedOn>link:labelLink</link:usedOn>
       </link:roleType>
